@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>brt600</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            81
+            4
+            0
+            37 
+          </indices>
+          <liveries/>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            111
+            28
+            0
+            37 
+          </indices>
+          <liveries/>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            54
+            81
+            0
+            37 
+          </indices>
+          <liveries/>
+        </Item> 
+		<Item>
+          <indices content="char_array">
+            70
+            0
+            0
+            37 
+          </indices>
+          <liveries/>
+        </Item> 
+		<Item>
+          <indices content="char_array">
+            145
+            156
+            0
+            37 
+          </indices>
+          <liveries/>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            28
+            0
+            0
+            37 
+          </indices>
+          <liveries/>
+        </Item> 
+		<Item>
+          <indices content="char_array">
+            0
+            0
+            0
+            37 
+          </indices>
+          <liveries/>
+        </Item>      
+      </colors>
+      <kits>
+        <Item>726_brt_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="13" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

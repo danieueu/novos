@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+		<Item>
+      <modelName>cbhornet750</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            111
+            044 
+            020
+            000
+		    083
+		    013
+          </indices>
+          <liveries>
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>2139109_cbhornet750_modkit</Item>
+	  </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard Wite</Name>
+            <Value value="0" />
+          </Item>
+          <Item>
+            <Name>Wite Plate 1</Name>
+            <Value value="0" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2139109" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
