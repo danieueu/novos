@@ -5,21 +5,21 @@
 	<Item type="CHandlingData">
       <handlingName>sl65bs09</handlingName>
       <fMass value="1795.000000" />
-      <fInitialDragCoeff value="1.220000" />
+      <fInitialDragCoeff value="4.620000" />
       <fPercentSubmerged value="85.000000" />
       <vecCentreOfMassOffset x="0.000000" y="0.020000" z="0.488000" />
       <vecInertiaMultiplier x="1.000000" y="1.000000" z="1.000000" />
       <fDriveBiasFront value="0.000000" />
       <nInitialDriveGears value="6" />
-      <fInitialDriveForce value="0.250000" />
+      <fInitialDriveForce value="0.340000" />
       <fDriveInertia value="1.000000" />
       <fClutchChangeRateScaleUpShift value="2.500000" />
       <fClutchChangeRateScaleDownShift value="2.500000" />
-      <fInitialDriveMaxFlatVel value="168.000000" />
-      <fBrakeForce value="1.000000" />
+      <fInitialDriveMaxFlatVel value="270.000000" />
+      <fBrakeForce value="1.300000" />
       <fBrakeBiasFront value="0.425000" />
       <fHandBrakeForce value="0.450000" />
-      <fSteeringLock value="40.200000" />
+      <fSteeringLock value="43.200000" />
       <fTractionCurveMax value="2.690000" />
       <fTractionCurveMin value="2.560000" />
       <fTractionCurveLateral value="22.500000" />

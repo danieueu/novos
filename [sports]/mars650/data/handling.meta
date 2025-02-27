@@ -5,13 +5,13 @@
   <Item type="CHandlingData">
     <handlingName>mars650</handlingName>
     <fMass value="1600.000000" />
-    <fInitialDragCoeff value="9.100000" />
+    <fInitialDragCoeff value="6.500000" />
     <fPercentSubmerged value="85.000000" />
     <vecCentreOfMassOffset x="0.000000" y="-0.050000" z="0.000000" />
     <vecInertiaMultiplier x="1.200000" y="1.600000" z="1.800000" />
     <fDriveBiasFront value="0.000000" />
     <nInitialDriveGears value="6" />
-    <fInitialDriveForce value="0.340000" />
+    <fInitialDriveForce value="0.310000" />
     <fDriveInertia value="1.000000" />
     <fClutchChangeRateScaleUpShift value="2.200000" />
     <fClutchChangeRateScaleDownShift value="2.200000" />
