@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShopVehicleDataArray>
+	<Vehicles>
+	<Item>
+		<lockHash>CU_VEH_1970gaz24lr</lockHash>
+		<modelNameHash>1970gaz24lr</modelNameHash>
+		<cost value="100"/>
+		<textLabel>1970gaz24lr</textLabel>
+		<textLabel></textLabel>
+	</Item>
+	</Vehicles>
+</ShopVehicleDataArray>
