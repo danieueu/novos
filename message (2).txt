@@ -1,0 +1,181 @@
+Categories = {
+  { id = 1, name = 'Compactos', type = 'car' },
+  { id = 2, name = 'Clássicos Super', type = 'car' },
+  { id = 3, name = 'Sports', type = 'car' },
+  { id = 4, name = 'Clássicos', type = 'car' },
+  { id = 5, name = 'Super', type = 'car' },
+  { id = 6, name = 'Muscle', type = 'car' },
+  { id = 7, name = 'Off Road', type = 'car' },
+  { id = 8, name = 'SUVs', type = 'car' },
+  { id = 9, name = 'Vans', type = 'car' },
+  { id = 10, name = 'Motas', type = 'car' },
+  { id = 11, name = 'Submarinos', type = 'boat' },
+  { id = 12, name = 'Barcos', type = 'boat' },
+  { id = 13, name = 'Aviões', type = 'plane' },
+  { id = 14, name = 'Helicópteros', type = 'plane' },
+}
+
+Vehicles = {
+  -- Category 1: Compacts
+  { name = 'Issi', model = 'issi2', price = 110000, category_id = 1, stock = nil },
+  { name = 'Weevil', model = 'weevil', price = 80000, category_id = 1, stock = nil },
+  { name = 'Civic-typeR', model = 'ek9', price = 260000, category_id = 1, stock = nil },
+  { name = 'Renault Clio RS', model = 'cliors', price = 140000, category_id = 1, stock = nil },
+  { name = 'Peugeot 308', model = 'p308', price = 150000, category_id = 1, stock = nil },
+  { name = 'Peugeot 607', model = 'peugeot607', price =  250000, category_id = 1, stock = nil },
+  { name = 'Peugeot RCZ', model = 'rcz15', price = 130000, category_id = 1, stock = nil },
+  { name = 'Peugeot 206', model = '206gti', price = 110000, category_id = 1, stock = nil },
+  { name = 'Volkswagen Golf 2025', model = 'golf25r', price = 190000, category_id = 1, stock = nil },
+
+ -- Category 2: Clássicos Super
+
+  { name = 'Corvette 1963', model = 'corvette63', price = 450000, category_id = 2, stock = nil },
+  { name = 'Ferrari F50', model = 'ff50', price = 5500000, category_id = 2, stock = nil },
+  { name = 'lamborghini_diablo', model = 'ldgtr', price = 5500000, category_id = 2, stock = nil },
+  { name = 'Lamborghini Espada', model = 'espada', price = 510000, category_id = 1, stock = nil },
+  { name = 'Porsche 911', model = '82turbohp', price = 610000, category_id = 2, stock = nil },
+  { name = 'Porsche 959', model = '88po959hp', price = 3500000, category_id = 2, stock = nil },
+  
+ --Category 3: Sports
+
+  { name = 'Imorgon', model = 'imorgon', price = 480000, category_id = 3, stock = nil },
+  { name = 'Jugular', model = 'jugular', price = 370000, category_id = 3, stock = nil },
+  { name = 'Jester RR', model = 'jester4', price = 310000, category_id = 3, stock = nil },
+  { name = 'Sultan RS', model = 'sultanrs', price = 600000, category_id = 3, stock = nil },
+  { name = 'Sentinel RTS', model = 'sentinel_rts', price = 1000000, category_id = 3, stock = nil },
+  { name = 'Mercedes AMG SLS', model = 'msls', price = 650000, category_id = 3, stock = nil },
+  { name = 'Mercedes AMG SL 65', model = 'sl65bs09', price = 850000, category_id = 3, stock = nil },
+  { name = 'Audi R8', model = '10r8hp', price = 1100000, category_id = 3, stock = nil },
+  { name = 'BMW I4', model = 'alcbmwi4', price = 710000, category_id = 3, stock = nil },
+  { name = 'BMW 740', model = '16bmw740le', price = 480000, category_id = 3, stock = nil },            
+  { name = 'Nissan GTR', model = '09gtrhp', price = 1500000, category_id = 3, stock = nil },
+  { name = 'Lexus LFA', model = 'lxlfa', price = 450000, category_id = 3, stock = nil }, 
+  { name = 'Mercedes S650', model = 'mars650', price = 480000, category_id = 3, stock = nil }, 
+  { name = 'ManHart BMW M8 ', model = 'mh8', price = 800000, category_id = 3, stock = nil },
+  { name = 'Maserati MSQ', model = 'msq', price = 600000, category_id = 3, stock = nil }, 
+  { name = 'Nissan Z24', model = 'z24ufx', price = 550000, category_id = 3, stock = nil },
+  { name = 'Subaru WRX', model = 'subarung', price = 560000, category_id = 3, stock = nil },
+  { name = 'Toyota GT86', model = adgt86', price = 370000, category_id = 3, stock = nil },
+  { name = 'Aston Martin Vantage', model = 09vanthp', price = 550000, category_id = 3, stock = nil },
+
+  --Category 4: Classics
+
+ { name = 'Z-Type', model = 'ztype', price = 270000, category_id = 4, stock = nil },
+ { name = 'Tannen H', model = 'tannen', price = 170000, category_id = 4, stock = nil },
+ { name = 'BMW 728i, model = 'bmw7', price = 150000, category_id = 4, stock = nil },
+ { name = 'Gaz Volga', model = '1970gaz24lr', price = 110000, category_id = 4, stock = nil },
+ { name = 'Mercedes 300sel', model = '300sel63', price = 135000, category_id = 4, stock = nil },
+ { name = 'Mercedes 500e', model = '500ew124', price = 140000, category_id = 4, stock = nil },
+ { name = 'Subaru Impreza', model = '22b', price = 300000, category_id = 4, stock = nil },
+ { name = 'Volvo 1800', model = 'vol1800c', price = 120000, category_id = 4, stock = nil },
+
+  --Category 5: Super
+
+  { name = 'Krieger', model = 'krieger', price = 4600000, category_id = 5, stock = nil }, 
+  { name = 'Turismo R', model = 'turismor', price = 5100000, category_id = 5, stock = nil },
+  { name = 'Mercedes AMG Forza', model = 'forza', price = 5100000, category_id = 5, stock = nil },
+  { name = 'Bugatti Chiron', model = 'sport', price = 6000000, category_id = 5, stock = nil },
+  { name = 'Bugatti La Voiture', model = 'buggy', price = 7000000, category_id = 5, stock = nil },
+  { name = 'Chevrolet C8', model = 'adc8', price = 3000000, category_id = 5, stock = nil },
+  { name = 'Lamborghini Essenza', model = 'essenzatdb', price = 6500000, category_id = 5, stock = nil },
+  { name = 'Ferrari 296GTS', model = '296gts', price = 4000000, category_id = 5, stock = nil },
+  { name = 'Ferrari F40', model = 'f40', price = 6000000, category_id = 5, stock = nil },
+  { name = 'Ferrari 812', model = 'f812', price = 6000000, category_id = 5, stock = nil },
+  { name = 'Lamborghini Huracan', model = 'huracanspy', price = 3000000, category_id = 5, stock = nil },
+  { name = 'Koenigsegg Agera', model = 'tw_kar18', price = 7500000, category_id = 5, stock = nil },
+  { name = 'La Ferrari', model = 'gxlaferrari', price = 3100000, category_id = 5, stock = nil },
+  { name = 'McLaren P1', model = 'pm1', price = 3100000, category_id = 5, stock = nil },
+  { name = 'Aston Martin Val', model = 'val', price = 1200000, category_id = 5, stock = nil },
+  { name = 'Lamborghini Sesto Elemento', model = 'sesto', price = 6000000, category_id = 5, stock = nil },
+  { name = 'lamborghini_timmy', model = 'timmy', price = 1600000, category_id = 5, stock = nil },
+ 
+  -- Category 6: Muscle
+
+  { name = 'Bravado Gauntlet', model = 'gstgauntc2', price = 450000, category_id = 6, stock = nil },
+  { name = 'Bravado Hellfire', model = 'vd_buffalo4h', price = 1000000, category_id = 6, stock = nil },
+  { name = 'Dodge MK2', model = 'mk2demon', price = 5500000, category_id = 6, stock = nil },
+  { name = 'Mustang Shelby GT500', model = 'hy5', price = 850000, category_id = 6, stock = nil },
+  { name = 'Gauntlet Yubby', model = 'yubbynub', price = 430000, category_id = 6, stock = nil },
+ 
+  -- Category 7: Off Road
+  { name = 'Brawler', model = 'brawler', price = 240000, category_id = 7, stock = nil },
+  { name = 'Mesa3', model = 'mesa3', price = 230000, category_id = 7, stock = nil },
+  { name = 'Bfinjection', model = 'bfinjection', price = 210000, category_id = 7, stock = nil },
+  { name = 'Rebel', model = 'rebel', price = 150000, category_id = 7, stock = nil },
+  { name = '1500 Brutus', model = 'brutus4', price = 205000, category_id = 7, stock = nil },
+  { name = 'Ford Raptor', model = 'RAPTOR2017', price = 210000, category_id = 7, stock = nil },
+  { name = 'Hummer GMC', model = 'tdbhummer', price = 250000, category_id = 7, stock = nil },
+  { name = 'Toyota Martys', model = 'martystoyota', price = 150000, category_id = 7, stock = nil },
+  { name = 'Toyota SClkuz', model = 'sclkuz', price = 190000, category_id = 7, stock = nil },
+  { name = 'De Classe', model = 'yosemite2500', price = 180000, category_id = 7, stock = nil },
+
+  -- Category 8: SUVs
+  { name = 'Patriot', model = 'patriot', price = 150000, category_id = 8, stock = nil },
+  { name = 'Mercedes AMG 6x6', model = 'G63AMG6x6', price = 350000, category_id = 8, stock = nil },
+  { name = 'Cadillac Escalade', model = 'escalade', price = 180000, category_id = 8, stock = nil },
+  { name = 'Hyundai_tucson', model = 'tuc19', price = 160000, category_id = 8, stock = nil },
+  { name = 'Mercedes GLS63', model = 'glsbrabus800', price = 300000, category_id = 8, stock = nil },
+  { name = 'Seat Tarraco', model = 'tarraco', price = 160000, category_id = 8, stock = nil },
+ 
+  -- Category 9: Vans
+  { name = 'Bobcat XL', model = 'bobcatxl', price = 120000, category_id = 9, stock = nil },
+  { name = 'Burrito', model = 'burrito3', price = 150000, category_id = 9, stock = nil },
+  { name = 'Camper', model = 'camper', price = 300000, category_id = 9, stock = nil },
+  { name = 'Journey', model = 'journey', price = 200000, category_id = 9, stock = nil },
+  { name = 'Moonbeam2', model = 'moonbeam2', price = 130000, category_id = 9, stock = nil },
+  { name = 'Audi RS6', model = 'avant', price = 550000, category_id = 9, stock = nil },
+  { name = 'BMW M5', model = 'm5g60w', price = 400000, category_id = 9, stock = nil },
+  { name = 'International Benson', model = '01inter4700', price = 250000, category_id = 9, stock = nil },
+  { name = 'Mercedes E55', model = 'benze55estate', price = 280000, category_id = 9, stock = nil },
+  { name = 'Benefactor Jogger', model = 'JOGGER', price = 200000, category_id = 9, stock = nil },
+
+  -- Category 10: Motorcycles
+  { name = 'Sanchez', model = 'sanchez', price = 100000, category_id = 10, stock = nil },
+  { name = 'Bati 801', model = 'bati', price = 270000, category_id = 10, stock = nil },
+  { name = 'Daemon 2', model = 'daemon2', price = 115000, category_id = 10, stock = nil },
+  { name = 'Double-T', model = 'double', price = 300000, category_id = 10, stock = nil },
+  { name = 'Vader', model = 'vader', price = 190000, category_id = 10, stock = nil },
+  { name = 'Bmw S1000rr', model = 'bmws1000rr', price = 650000, category_id = 10, stock = nil },
+  { name = 'CB Hornet', model = 'cbhornet750', price = 550000, category_id = 10, stock = nil },
+  { name = 'Falcon', model = 'falcon', price = 420000, category_id = 10, stock = nil },
+  { name = 'Nagasaki BRT600', model = 'brt600', price = 120000, category_id = 10, stock = nil },
+  { name = 'Ninja_H2', model = 'hbl_h2', price = 6000000, category_id = 10, stock = nil },
+  { name = 'Honda PCX160', model = 'pcx160_2025', price = 250000, category_id = 10, stock = nil },
+  { name = 'Yamaha R1', model = 'r12007', price = 550000, category_id = 10, stock = nil },
+
+  --Category 11: Submarines
+  { name = 'Submarino', model = 'submersible', price = 3000000, category_id = 11, stock = nil },
+  { name = 'Submarino', model = 'submersible', price = 3750000, category_id = 11, stock = nil },
+  { name = 'Avisa', model = 'avisa', price = 4500000, category_id = 11, stock = nil },
+
+  --Category 12: Boats
+  { name = 'Mota-Água', model = 'seashark', price = 300000, category_id = 12, stock = nil },
+  { name = 'Dinghy', model = 'dinghy4', price = 700000, category_id = 12, stock = nil },
+  { name = 'Jetmax', model = 'jetmax', price = 1000000, category_id = 12, stock = nil },
+  { name = 'Toro', model = 'toro', price = 1500000, category_id = 12, stock = nil },
+  { name = 'Speeder', model = 'speeder', price = 170000, category_id = 12, stock = nil },
+  { name = 'Marquis', model = 'marquis', price = 2000000, category_id = 12, stock = nil },
+  { name = 'Tug', model = 'tug', price = 900000, category_id = 12, stock = nil },
+  { name = 'Tropic', model = 'tropic', price = 1000000, category_id = 12, stock = nil },
+
+  -- Category 13: Planes
+  { name = 'Microlight', model = 'microlight', price = 2000000, category_id = 13, stock = nil },
+  { name = 'Duster', model = 'duster', price = 2000000, category_id = 13, stock = nil },
+  { name = 'Stunt', model = 'stunt', price = 2500000, category_id = 13, stock = nil },
+  -- { name = 'Mammatus', model = 'mammatus', price = 2500000, category_id = 13, stock = nil },
+  -- { name = 'Dodo', model = 'dodo', price = 2800000, category_id = 13, stock = nil }, 
+  { name = 'Howard', model = 'howard', price = 2800000, category_id = 13, stock = nil },
+  { name = 'Vestra', model = 'vestra', price = 3000000, category_id = 13, stock = nil },
+  { name = 'Shamal', model = 'shamal', price = 3500000, category_id = 13, stock = nil },
+  -- { name = 'Nimbus', model = 'nimbus', price = 380000, category_id = 13, stock = nil },
+  { name = 'Luxor', model = 'luxor', price = 4500000, category_id = 13, stock = nil },
+  -- { name = 'Alpha-Z', model = 'alphaz1', price = 4500000, category_id = 13, stock = nil },
+  { name = 'Boieng 737', model = '737200', price = 3500000, category_id = 13, stock = nil },
+
+  -- Category 14: Helicopters
+  -- { name = 'Seasparrow', model = 'seasparrow', price = 2500000, category_id = 14, stock = nil },
+  -- { name = 'Supervolito', model = 'supervolito', price = 4000000, category_id = 14, stock = nil },
+  { name = 'Frogger', model = 'frogger', price = 2000000, category_id = 14, stock = nil },
+  -- { name = 'Maverick', model = 'maverick', price = 2000000, category_id = 14, stock = nil },
+  { name = 'Havok', model = 'havok', price = 1700000, category_id = 14, stock = nil },
+}
